@@ -22,8 +22,10 @@ Knowledge Bank is a lightweight Claude Code plugin that transforms your developm
 ### Quick Setup
 
 ```bash
-# Clone the repository
+# Install Knowledge Bank globally
 npm install -g @gabrywu/knowledge-bank --registry https://registry.npmjs.org
+# For alpha/beta versions, use:
+npm install -g @gabrywu/knowledge-bank@alpha --registry https://registry.npmjs.org
 
 # Install the Knowledge Bank plugin
 knowledge-bank install
